@@ -110,7 +110,7 @@ def stats(start=None, end=None):
     # (*sel) indicates multiple results
     if not end:
         results = session.query(*sel).\
-        filter(Measurement.date >= start).all()
+            filter(Measurement.date >= start).all()
         # Unravel the results into a one demensional array and convert to list
         temps = list(np.ravel(results))
         # Return these results with jsonify
