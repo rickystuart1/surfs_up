@@ -7,7 +7,7 @@ import pandas as pd
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
-from sqlalchemy import create_engine, func
+from sqlalchemy import create_engine, func, inspect
 
 # Import flask dependencies
 from flask import Flask, jsonify
@@ -29,13 +29,13 @@ session = Session(engine)
 
 # --- Do not really understand this portion, what would an example of this be? Comment for now 
 # Magic Method to determine if app is imported or running directly
-#import app
-#print("example __name__ = %s", __name__)
+# import app
+# print("example __name__ = %s", __name__)
 
-#if __name__ == "__main__":
-#	print("example is being run directly.")
-#else:
-#	print("example is being imported")
+# if __name__ == "__main__":
+# 	print("example is being run directly.")
+# else:
+# 	print("example is being imported")
 
 # Set Up Flask
 app = Flask(__name__)
@@ -47,7 +47,7 @@ app = Flask(__name__)
 def welcome():
     return(
     '''
-    Welcome to the Climate Analysis API! 
+    Welcome to the Climate Analysis API! <br/>
     Available Routes: 
     /api/v1.0/precipitation 
     /api/v1.0/stations 
@@ -124,3 +124,5 @@ def stats(start=None, end=None):
     # Add jsonify() function which will give results JSON structure
     return jsonify(temps)
 
+if __name__ == "__main__":
+    app.run(debug=True)
