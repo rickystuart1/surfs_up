@@ -4,6 +4,10 @@ The purpose of this analysis is to review a data set with weather conditions, st
 
 
 ## Results
-Bulleted list of 3 key differences in weather between June and December
+Summary Statistics of June and December Temperatures
+<img src="
+
+Key Differences of Weather in Oahu, Hawaii:
+
 
 ## Summary
