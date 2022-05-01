@@ -18,4 +18,11 @@ Key Differences of Weather in Oahu, Hawaii:
 - June and December temperatures standard deviation are roughly similar at 3.26 and 3.75 respectively. When plotted, a majority of their temperatures seem to be near, concentrated towards, their averages and their min and maxes had few days that were recorded in the 'extreme' temperatures.  
 
 ## Summary
-With the statistics found in the analysis of June and December temperatures, it can be seen that 
+With the statistics found in the analysis of June and December temperatures, it can be seen that there is not a lot of variation in temperature from Summer to Winter in Oahu. But before investing in a ice cream shop, it would be better to look at precipitation and temperature statistics from all four seasons of the year. 
+After running more queries to find out about more about the weather throughout the year, it can be seen that Oahu, Hawaii maintains a very consistent temperature year round with little to no precipitation over 75% of days of the year. So investing in an ice cream surf shop in Oahu seems like a good idea, if temperature and precipitation are the only factors you are considering. 
+
+Summary Statistics from a month in each of the four seasons shown below.
+
+<img src="analysis/march_temp_prcp.png">  <img src="analysis/june_temp_prcp.png">  
+
+<img src="analysis/sept_temp_prcp.png">  <img src="analysis/dec_temp_prcp.png">
