@@ -19,7 +19,8 @@ Key Differences of Weather in Oahu, Hawaii:
 
 ## Summary
 With the statistics found in the analysis of June and December temperatures, it can be seen that there is not a lot of variation in temperature from Summer to Winter in Oahu. But before investing in a ice cream shop, it would be better to look at precipitation and temperature statistics from all four seasons of the year. 
-After running more queries to find out about more about the weather throughout the year, it can be seen that Oahu, Hawaii maintains a very consistent temperature year round with little to no precipitation over 75% of days of the year. So investing in an ice cream surf shop in Oahu seems like a good idea, if temperature and precipitation are the only factors you are considering. 
+
+After running more queries to find out about more about the weather throughout the year, it can be seen that Oahu, Hawaii maintains a very consistent temperature all year, with little to no precipitation on over 75% of days of the year. The average temperature stays within a range of 5° year round, from 70° to 75°. It can be concluded that investing in an ice cream surf shop in Oahu seems like a good idea, if temperature and precipitation are the only factors you are considering. 
 
 Summary Statistics from a month in each of the four seasons shown below.
 
